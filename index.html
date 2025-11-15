@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gótico - Home</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .font-momo {
+        font-family: "Momo Trust Display", sans-serif;
+      }
+    </style>
+  </head>
+
+  <body class="bg-black text-gray-200 font-sans min-h-screen flex flex-col">
+    <!-- Cabeçalho -->
+    <header class="bg-gray-900 text-gray-100 p-4 shadow-lg">
+      <nav class="flex justify-center space-x-6 font-momo text-lg">
+        <a
+          href="index.html"
+          class="transition-transform duration-300 hover:scale-110 text-purple-400"
+          >Home</a
+        >
+        <a
+          href="moda.html"
+          class="transition-transform duration-300 hover:scale-110 hover:text-purple-400"
+          >Moda</a
+        >
+        <a
+          href="musica.html"
+          class="transition-transform duration-300 hover:scale-110 hover:text-purple-400"
+          >Música</a
+        >
+        <a
+          href="cultura.html"
+          class="transition-transform duration-300 hover:scale-110 hover:text-purple-400"
+          >Cultura</a
+        >
+        <a
+          href="contato.html"
+          class="transition-transform duration-300 hover:scale-110 hover:text-purple-400"
+          >Contatos</a
+        >
+      </nav>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main class="flex-grow">
+      <div
+        class="max-w-5xl mx-auto mt-12 p-8 bg-gray-950 rounded-2xl shadow-2xl border border-gray-800"
+      >
+        <section class="text-center mb-10">
+          <h1 class="text-4xl font-bold mb-6 text-purple-400 font-momo">
+            Bem-vindo ao Gótico
+          </h1>
+          <p class="text-lg leading-relaxed text-gray-300 max-w-3xl mx-auto">
+            Este blog é um espaço dedicado à <strong>subcultura gótica</strong>,
+            um movimento que combina arte, moda, música e filosofia sob uma
+            estética sombria e elegante. Nosso objetivo é apresentar as origens,
+            o significado e o impacto dessa cultura.
+          </p>
+        </section>
+
+        <!-- Conteúdos de destaque -->
+        <section>
+          <h2
+            class="text-2xl font-semibold mb-6 text-purple-400 font-momo text-center"
+          >
+            Conteúdos em Destaque
+          </h2>
+          <div class="grid md:grid-cols-3 gap-8">
+            <!-- Conteúdo 1 -->
+            <a
+              href="moda.html"
+              class="group block bg-gray-900 rounded-xl overflow-hidden shadow-lg transform transition hover:scale-105"
+            >
+              <img
+                src="img\index\gothgirl.jpg"
+                alt="Moda gótica"
+                class="w-full h-56 object-cover opacity-80 group-hover:opacity-100"
+              />
+              <div class="p-4">
+                <h3 class="text-xl font-momo text-purple-400 mb-2">
+                  Moda Gótica
+                </h3>
+                <p class="text-gray-300 text-sm">
+                  Explore o visual característico e diverso dos góticos.
+                </p>
+              </div>
+            </a>
+
+            <!-- Conteúdo 2 -->
+            <a
+              href="musica.html"
+              class="group block bg-gray-900 rounded-xl overflow-hidden shadow-lg transform transition hover:scale-105"
+            >
+              <img
+                src="img\index\siouxsie.jpg"
+                alt="Música gótica"
+                class="w-full h-56 object-cover opacity-80 group-hover:opacity-100"
+              />
+              <div class="p-4">
+                <h3 class="text-xl font-momo text-purple-400 mb-2">
+                  Música Gótica
+                </h3>
+                <p class="text-gray-300 text-sm">
+                  Descubra as bandas, sons e inspirações que moldaram o
+                  movimento gótico.
+                </p>
+              </div>
+            </a>
+
+            <!-- Conteúdo 3 -->
+            <a
+              href="cultura.html"
+              class="group block bg-gray-900 rounded-xl overflow-hidden shadow-lg transform transition hover:scale-105"
+            >
+              <img
+                src="img\index\antifacism.jpg"
+                alt="Cultura gótica"
+                class="w-full h-56 object-cover opacity-80 group-hover:opacity-100"
+              />
+              <div class="p-4">
+                <h3 class="text-xl font-momo text-purple-400 mb-2">
+                  Cultura & Filosofia
+                </h3>
+                <p class="text-gray-300 text-sm">
+                  Conheça o modo de viver gótico.
+                </p>
+              </div>
+            </a>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- Rodapé fixado no fundo -->
+    <footer class="text-center p-4 bg-gray-900 text-gray-400 text-sm mt-auto">
+      © 2025 Anna — Todos os direitos reservados.
+    </footer>
+  </body>
+</html>
